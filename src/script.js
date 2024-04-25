@@ -16,7 +16,7 @@ var product = [{
     id: 3,
     img: 'asset/products/3.jpg',
     name: 'BPS150',
-    price: 45000,
+    price: 110000,
     description: 'Blue-printer-solution Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
     type: 'Blue-printer-solution'
 }, {
