@@ -99,8 +99,8 @@ var product = [{
     type: 'Blue-printer-solution'
 }, {
     id: 15,
-    img: 'asset/products/4.png',
-    name: 'AURORA AS-1500CD',
+    img: 'asset/products/AS1610.jpg',
+    name: 'AURORA AS-1610SB',
     price: 45000,
     description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
     type: 'AURORA'
