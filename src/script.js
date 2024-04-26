@@ -1,26 +1,139 @@
 var product = [{
     id: 1,
-    img: 'asset/products/1.png',
+    img: 'asset/products/2329.bmp',
     name: 'e-studio2329A',
     price: 7000,
     description: 'Printer Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
     type: 'Printer-Bw'
 }, {
     id: 2,
-    img: 'asset/products/2.jpg',
+    img: 'asset/products/e2520AC,3025,4525.jpg',
     name: 'e-studio2520AC',
     price: 1500,
     description: 'Printer-color Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
     type: 'Printer-color'
 }, {
     id: 3,
-    img: 'asset/products/3.jpg',
-    name: 'BPS150',
+    img: 'asset/products/BPS150.PNG',
+    name: 'BPS-150',
     price: 110000,
     description: 'Blue-printer-solution Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
     type: 'Blue-printer-solution'
 }, {
     id: 4,
+    img: 'asset/products/as1500.png',
+    name: 'AURORA AS-1500CD',
+    price: 45000,
+    description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'AURORA'
+}, {
+    id: 5,
+    img: 'asset/products/2523AD.jpg',
+    name: 'e-studio2523AD',
+    price: 45000,
+    description: 'Printer Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Printer-Bw'
+
+}, {
+    id: 6,
+    img: 'asset/products/e3028A.jpg',
+    name: 'e-studio3028A',
+    price: 45000,
+    description: 'Printer Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Printer-Bw'
+}, {
+    id: 7,
+    img: 'asset/products/e4528A.jpg',
+    name: 'e-studio4528A',
+    price: 45000,
+    description: 'Printer Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Printer-Bw'
+}, {
+    id: 8,
+    img: 'asset/products/e5528A.jpg',
+    name: 'e-studio5528A',
+    price: 45000,
+    description: 'Printer Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Printer-Bw'
+}, {
+    id: 9,
+    img: 'asset/products/e2520AC,3025,4525.jpg',
+    name: 'e-studio3025AC',
+    price: 45000,
+    description: 'Printer-color Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Printer-color'
+}, {
+    id: 10,
+    img: 'asset/products/e2520AC,3025,4525.jpg',
+    name: 'e-studio4525AC',
+    price: 45000,
+    description: 'Printer-color Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Printer-color'
+}, {
+    id: 11,
+    img: 'asset/products//e2520AC,3025,4525.jpg',
+    name: 'e-studio5015AC',
+    price: 45000,
+    description: 'Printer-color Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Printer-color'
+}, {
+    id: 12,
+    img: 'asset/products/e-330AC 400AC.jpg',
+    name: 'e-studio330AC 400AC',
+    price: 45000,
+    description: 'Printer-color Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Printer-color'
+}, {
+    id: 13,
+    img: 'asset/products/PBS550.PNG',
+    name: 'BPS-550',
+    price: 110000,
+    description: 'Blue-printer-solution Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Blue-printer-solution'
+}, {
+    id: 14,
+    img: 'asset/products/bps-201.jpg',
+    name: 'BPS-201',
+    price: 45000,
+    description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'Blue-printer-solution'
+}, {
+    id: 15,
+    img: 'asset/products/4.png',
+    name: 'AURORA AS-1500CD',
+    price: 45000,
+    description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'AURORA'
+}, {
+    id: 16,
+    img: 'asset/products/4.png',
+    name: 'AURORA AS-1500CD',
+    price: 45000,
+    description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'AURORA'
+}, {
+    id: 17,
+    img: 'asset/products/4.png',
+    name: 'AURORA AS-1500CD',
+    price: 45000,
+    description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'AURORA'
+}, {
+    id: 18,
+    img: 'asset/products/4.png',
+    name: 'AURORA AS-1500CD',
+    price: 45000,
+    description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'AURORA'
+} ,{
+    id: 19,
+    img: 'asset/products/4.png',
+    name: 'AURORA AS-1500CD',
+    price: 45000,
+    description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
+    type: 'AURORA'
+}, {
+    id: 20,
     img: 'asset/products/4.png',
     name: 'AURORA AS-1500CD',
     price: 45000,
