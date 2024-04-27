@@ -1,7 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .slide-container {
     margin: 0 auto;
     width: 100%;
-    padding: 10px;
+    height: 100vh;
+    padding: 15px;
     justify-content: center;
     display: flex;
+}
+
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+    
 }
