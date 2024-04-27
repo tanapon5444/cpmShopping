@@ -105,7 +105,7 @@ var product = [{
     description: 'AURORA AS Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam debitis sapiente magnam consequuntur libero.',
     type: 'AURORA'
 }, {
-    id: 16,
+    id: 16, 
     img: 'asset/products/4.png',
     name: 'AURORA AS-1500CD',
     price: 45000,
