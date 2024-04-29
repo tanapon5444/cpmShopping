@@ -28,7 +28,9 @@
 }
 
 .proimg {
-    width: 300px;
+    width: 65%;
+    padding: 10px;
     height: 100%;
-    margin-left:335px; 
+    margin-left:180px; 
 }
+

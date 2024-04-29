@@ -265,4 +265,7 @@ function deinitems(action, index) {
         $("#countitems"+index).text(cart[index].count)
         rendercart();
     }
+
+
+    
 }
