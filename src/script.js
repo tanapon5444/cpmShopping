@@ -167,10 +167,10 @@ function searchproduct(param) {
 var productindex = 0;
 function openProductDetail(index) {
     productindex = index;
+    console.log('index', index)
     $("#modalDesc").css('display', 'flex')
     $("#mdd-img").attr('src', product[index].img);
     $("#mdd-name").text(product[index].name)
-    $("#mdd-price").text( numberWithCommas(product[index].price) + ' THB')
     $("#mdd-desc").text(product[index].description)
     this.selectProduct = productindex;
 }
