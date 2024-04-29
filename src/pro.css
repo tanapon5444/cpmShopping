@@ -16,6 +16,12 @@
     border-radius: 5px;
 }
 
+.sidebar {
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    flex-direction: column;
+}
 .promo {
     display: grid;
     
