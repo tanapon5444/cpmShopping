@@ -1,11 +1,17 @@
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="script.js"></script>
 <link rel="stylesheet" href="style.css">
+<link href="page.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+<html>
 
 <body>
+
 
   <nav>
     <div class="nav-container">
@@ -14,86 +20,61 @@
       </a>
 
       <ul class="ul-menu">
-        <li><a href="page.html">หน้าแรก</a></li>
+        <li><a href="index.html">หน้าแรก</a></li>
         <li><a href="promotion.html">โปรโมชั่นเครื่องเช่า</a></li>
-        <li><a href="index.html">สินค้า</a></li>
+        <li><a href="products.html">สินค้า</a></li>
         <li><a href="contact.html">ติดต่อ</a></li>
-        
-    </ul>
-    
-     
+
+      </ul>
   </nav>
 
-  <div class="container">
-    <div class="sidebar">
-      <input onkeyup="searchsomething(this)" id="txt_search" type="text" class="sidebar-search" placeholder="ค้นหาสินค้า...">
-
-      <a onclick="searchproduct('all')" class="sidebar-items">
-        All product
-      </a>
-      <a onclick="searchproduct('Printer-Bw')" class="sidebar-items">
-        Printer
-      </a>
-      <a onclick="searchproduct('Printer-color')" class="sidebar-items">
-        Printer-color
-      </a>
-      <a onclick="searchproduct('Blue-printer-solution')" class="sidebar-items">
-        Blue-printer-solution
-      </a>
-      <a onclick="searchproduct('AURORA')" class="sidebar-items">
-        AURORA
-      </a>
-    </div>
-    <div id="productlist" class="product">
-
-    </div>
-  </div>
-
-  <div id="modalDesc" class="modal" style="display: none;">
-    <div onclick="closeModal()" class="modal-bg"></div>
-    <div class="modal-page">
-      <h2>ข้อมูลสินค้า</h2>
-      <br>
-      <div class="modaldesc-content">
-        <img id="mdd-img" class="modaldesc-img" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="">
-        <div class="modaldesc-detail">
-          <p id="mdd-name" style="font-size: 1.5vw;">Product name</p>
-          <br>
-          <p id="mdd-desc" style="color: #adadad;">Product Description</p>
-          <br>
-          
-          <div class="btn-control">
-            <button id="downloadBTN" onclick="downloadPDF(selectProduct)" class="btn btn-buy">
-              ดาวน์โหลดไฟล์ PDF
-            </button>
-            <button onclick="closeModal()" class="btn">
-              ปิดหน้าต่าง
-            </button>
-           
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="modalCart" class="modal" style="display: none;">
-    <div onclick="closeModal()" class="modal-bg"></div>
-    <div class="modal-page">
-      <h2>My cart</h2>
-      <br>
-      <div id="mycart" class="cartlist">
+  <div class="slide-container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="asset/products/2.1.jpeg"></div>
+        <div class="swiper-slide"><img src="asset/products/slide1.1.jpeg"></div>
+        <div class="swiper-slide"><img src="asset/products/slide1.2.jpeg"></div>
 
       </div>
-      <div class="btn-control">
-        <button onclick="closeModal()" class="btn">
-          Cancel
-        </button>
-        <button class="btn btn-buy">
-          Buy
-        </button>
-      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+
     </div>
+
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      autoplay: {
+        delay: 3000,
+        disableoninteraction: false
+      },
+
+      loop: true,
+
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickkable: true
+      },
+
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+
+    });       
+  </script>
 </body>
 
+</html>
